@@ -19,6 +19,7 @@ import AssignmentsPage from "./pages/admin/AssignmentsPage";
 import RegisterPage from "./pages/Register";
 import ResetPassword from "./pages/ResetPassword";
 import ForgotPassword from "./pages/ForgotPassword";
+import SupportUs from "./pages/SupportUs";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/" element={<Navigate to="/login" replace />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/supportus" element={<SupportUs />} />
 
           <Route
             path="/admin"
